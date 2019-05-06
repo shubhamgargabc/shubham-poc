@@ -1,0 +1,31 @@
+.header-content .content {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-content {
+    background-color: #ccc;
+}
+.main-content .data-content {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: 250px;
+}
+
+.landing-page-footer {
+    text-align: center;
+}
+.landing-page-footer .content {
+    font-size: 38px;
+    font-weight: bold;
+}
+.landing-page-footer .btn button {
+    background-color: lightblue;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 22px;
+}

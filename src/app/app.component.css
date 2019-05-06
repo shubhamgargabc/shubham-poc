@@ -1,0 +1,45 @@
+.my-plans .header-section {
+    
+}
+
+.logo-container {
+    float: left;
+    height: 70px;
+    width: 150px;
+}
+
+.nav-container {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-container ul li {
+    float: left;
+    margin-left: 20px;
+}
+hr {
+    clear: both;
+}
+
+.body-section {
+    clear: both;
+}
+
+.body-section .navigation-drawer, .content-section {
+    float: left;
+}
+.body-section .navigation-drawer {
+    background-color: #ccc;
+    height: 895px;
+    text-align: left;
+    width: 200px;
+}
+.body-section .navigation-drawer li {
+    padding: 15px;
+}
+.body-section .content-section {
+    width: 800px;
+}

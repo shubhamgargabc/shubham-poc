@@ -1,0 +1,60 @@
+<div>
+  <div class="box">
+    <table>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>
+            <input type="text" [(ngModel)]="name">
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" value="male" [(ngModel)]="gender" checked> Male
+            <input type="radio" name="gender" value="female" [(ngModel)]="gender"> Female<br>
+          </td>
+        </tr>
+        <tr>
+          <td>Date Of Birth</td>
+          <td>
+            <input type="date" [(ngModel)]="birthDate">
+          </td>
+        </tr>
+        <tr>
+          <td>Monthly Personal Expense</td>
+          <td>
+            <input type="number" [(ngModel)]="monthlyExpense">
+          </td>
+        </tr>
+        <tr>
+          <td>Current Savings</td>
+          <td>
+            <input type="number" [(ngModel)]="currentSavings">
+          </td>
+        </tr>
+        <tr>
+          <td>Locked-in Invenstments for Retirement</td>
+          <td>
+            <input type="number" [(ngModel)]="invenstments">
+          </td>
+        </tr>
+        <tr>
+          <td>Children</td>
+          <td>
+            <div>
+                <div class="children" *ngFor="let child of childrens; let i = $index">
+                  <input type="text" placeholder="Name" [(ngModel)]="child.name">
+                  <input type="number" placeholder="Age" [(ngModel)]="child.age">
+                </div>
+                <div class="add-childs">
+                  <button (click)="addChild()">+ Add More Childrens</button>
+                </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="generate-button" (click)="goToPlans()">Generate Financial Plan</button>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="my-plans">
+    <div class="header-section">
+      <header>
+        <div class="logo-container">
+          <img src="" alt="LOGO">
+        </div>
+        <div class="nav-container">
+          <nav>
+            <ul>
+              <li>Learn</li>
+              <li>Plan</li>
+              <li>Invest</li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
+    <hr>
+    <div class="body-section">
+      <div class="navigation-drawer">
+        <ul>
+          <li><a [routerLink]="['']">Home</a></li>
+          <li>Preference</li>
+        </ul>
+      </div>
+      <div class="content-section">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+</div>
