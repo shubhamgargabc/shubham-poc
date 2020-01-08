@@ -1,0 +1,23 @@
+Below is the assignment for WEB API training - 
+
+Create 2 separate projects
+1. one for frontend
+2. one for backend - Web API project.
+
+Project implementation criteria :
+
+1. Create a frontend project which should call backend using webapis.
+2. Consume web APIs from the frontend to list/add/edit/delete data
+3. One reporting interface should be there to list the data from multiple tables
+4. Token based authorization has to be used in the web api project
+5. Provide Postman collection for the API used in Reporting with proper authorization details.
+6. Web API should use EF as ORM (using any approach (db first/code first/model first)). DB should have at least 5 tables.
+7. For Web API project, proper exception handling & error logging is must
+
+Definition example :
+School project -> Standard / Teachers / Students / Subjects / Result
+Master forms for : Standard / Teachers / students / subjects
+Transaction form : Prepare subject wise result entry form
+Reporting : Standard wise each student's result. Categorize student's result . Total score >70 % -> A + . > 60% < 70% -> A etc
+
+Note : you do not need to follow the same definition for the project. This is just an example. Create your own definition.
